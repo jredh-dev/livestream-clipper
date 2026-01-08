@@ -1,0 +1,58 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+build/
+
+# Go
+*.test
+*.out
+go.work
+vendor/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+terraform.tfvars
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Temp files
+tmp/
+temp/
+/tmp
+
+# Docker
+docker-compose.override.yml
+
+# Backup files
+*.bak
+*.backup
+
+# Local development
+local-test/
+test-recordings/
